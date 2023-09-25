@@ -1,0 +1,159 @@
+.searchmenu {
+    position: relative;
+    height: inherit;
+    flex-wrap: nowrap;
+
+}
+
+
+.searchRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+
+
+
+
+.col {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.searchmenuheader {
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+
+.searchMenuForm {
+
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchMenuForm form {
+    position: relative;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.searchMenuForm form input,
+select {
+    height: 100%;
+}
+
+.searchMenuForm form select {
+    border-radius: 25px 0px 0px 25px;
+    text-align: center;
+}
+
+.searchMenuForm form input[type=button],
+select {
+    width: 25%;
+    border-width: 0px;
+    border-right-width: 0.9px;
+
+}
+
+.searchMenuForm form input[type=text] {
+    width: 50%;
+    border-width: 0px;
+}
+
+.searchMenuForm form input[type=button] {
+    border-radius: 0px 25px 25px 0px;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+
+/* right colms */
+.searchmenuRight {
+    justify-content: flex-end;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+    align-content: end;
+    
+   
+}
+
+.searchmenuRight .yourcard,.yourwishlist {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0 0 0;  
+    
+}
+
+.searchmenuRight .yourcard p,.yourwishlist p {
+    font-size: 81.25%;
+}
+
+
+.notificationNum {
+    background-color: red;
+    color: white;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    font-size: 10px;
+    position: absolute;
+    top: 16%;
+    right: 28%;
+
+}
+
+
+/* Add these media queries to your existing CSS */
+@media (max-width: 768px) { /* For tablet and smaller screens */
+    .searchRow {
+      flex-direction: row;
+      height: 65px;
+    }
+  
+    .searchmenuRight {
+      justify-content: center;
+    }
+  
+    .searchmenuRight .yourcard,
+    .yourwishlist {
+      padding: 5% 0;
+    }
+    
+    /* Adjust other styles as needed */
+  }
+  
+  @media (max-width: 576px) { /* For mobile screens */
+    .searchmenu {
+      padding: 10px; /* Add padding for better spacing */
+    }
+  
+    .searchMenuForm{
+        display: none;
+    }
+
+    .searchRow{
+        display: flex;
+        flex-direction: row;
+    }
+  
+    /* Adjust other styles as needed */
+  }
+  

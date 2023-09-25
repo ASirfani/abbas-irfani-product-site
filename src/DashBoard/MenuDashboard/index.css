@@ -1,0 +1,140 @@
+.menu-dashboard {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2px;
+    padding: 12px 0;
+}
+
+.left-menu-dashboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-menu-dashboard {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.dashboard-menu-icon {
+    border-radius: 50%;
+    margin: 3px;
+    color: rgb(236, 58, 58);
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.dashboard-menu-icon img {
+    width: 25px;
+}
+
+.dashboard-menu-icon:hover {
+    background-color: rgb(241, 115, 115);
+    color: #fff;
+    box-shadow: rgba(235, 131, 131, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+/* toggal */
+.sideToggal {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 4px 5px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    justify-content: center;
+    border: 0.5px dashed gray;
+    position: absolute;
+    left: -15px;
+    top: 40px;
+}
+
+.sideToggal * {
+    color: red;
+}
+
+.sideToggal:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* sub-dashboard-menu */
+.sub-menu-dashboard {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sub-menu-dashboard div {
+    align-items: center;
+}
+
+.dashboard-menu-icons {
+    border-radius: 50%;
+    margin: 3px;
+    color: rgb(236, 58, 58);
+    padding: 3px 5px;
+    
+}
+
+/* search Button */
+.searchbtns {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.searchbtns:hover {
+    background-color: #e24d11;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.searchInput {
+    padding-left: 10px;
+    color: #e24d11;
+    border-radius: 4px;
+    border-style: none;
+    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 2px 0px;
+    width: 299px;
+    height:40px
+
+}
+
+.searchInput:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    
+    .searchbtns {
+        margin-right: 0;
+        margin-top: 5px;
+        padding: 3px 5px;
+    }
+    .searchInput {
+        width: 85%;
+        height: 35px;
+    }
+
+    .sideToggal {
+        top: 45px;
+    }
+}

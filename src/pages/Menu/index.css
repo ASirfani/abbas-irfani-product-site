@@ -1,0 +1,53 @@
+.layoutProduct {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin: 3% 0;
+
+}
+
+.subsMenu {
+  display: flex;
+  align-content: center;
+  gap: 2%;
+  align-items: center;
+  border-bottom: 2px solid #D10024;
+  height: 47px;
+  background-color: #fff  ;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.subsMenu div span {
+  font-size: 98%;
+  color: #D10024;
+  font-weight: bold;
+}
+.subsMenu div span:hover {
+  color: #B9BABC;
+}
+
+.subsMenu div {
+  display: flex;
+  padding: 10px
+}
+
+.subsMenu div:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.subsMenu div:hover,span {
+  color: #eee;
+}
+
+/* Add the styles for the active link */
+.subsMenu div a.active {
+  color: #FF0000; /* Change this to the desired color */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Optional: Hover effect for the links */
+.subsMenu div a:hover {
+  color: #00FF00; /* Change this to the desired hover color */
+  text-decoration: underline; /* Underline the link on hover */
+}

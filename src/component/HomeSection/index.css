@@ -1,0 +1,33 @@
+.newproducts{
+    margin-top: 0.2%;
+    margin-bottom: 3%;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.newproducts .section-title{
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    
+    
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #D10024;
+    padding: 5px;
+    align-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.newproducts .section-title h3 .h3{
+    padding-left: 1%;
+    font-weight: bold;
+    color: #2B2D42;
+}
+
+.sliders {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2%;
+    flex-wrap: wrap;
+}

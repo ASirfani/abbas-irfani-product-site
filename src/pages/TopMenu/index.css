@@ -1,0 +1,138 @@
+/* background color*/
+.whiteColor {
+    background-color: #fff;
+}
+
+.blackColor {
+    background-color: #15161D;
+}
+
+.lightBlackColor {
+    background-color: #1E1F29;
+}
+
+.redColor {
+    background-color: #D10024;
+}
+
+.lighterBlack {
+    background: #2B2D42;
+}
+
+
+/* txt color */
+.txtblackColor {
+    color: #15161D;
+}
+
+.txtlightBlackColor {
+    color: #1E1F29;
+}
+
+.txtredColor {
+    color: #D10024;
+}
+
+.txtlighterBlack {
+    color: #2B2D42;
+}
+
+
+.txtwhite {
+    color: #FFFF;
+}
+
+
+/* topMenu */
+.spanTopMenu {
+    font-size: 81.25%;
+    margin-right: 2px;
+
+}
+
+.spanTopMenu:hover {
+
+    color: #D10024;
+
+}
+
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00A0C6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.icons {
+    font-weight: bold;
+
+}
+
+.row {
+    height: 40px;
+    align-items: center;
+}
+
+
+.cols .col {
+    align-items: baseline;
+}
+
+.rtf .col {
+    float: right;
+}
+
+.col {
+    margin-left: 10px;
+    align-items: baseline;
+}
+.mobile-size{
+    display: none;
+}
+
+/* ... (existing styles) ... */
+
+@media (max-width: 767px) {
+    /* Adjust styles for tablet and mobile screens */
+    .topmenu {
+      display: none;
+    }
+
+    .mobile-size{
+        display:  flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        gap: 20px;
+        color: #ffffff;
+        
+
+    }
+
+   .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        padding: 10px 0;
+        font-size: 17px;
+       
+    }
+
+    .mobileMenu div:hover{
+        background-color: red;
+
+    }
+
+    
+  .mobileAccountIcon{
+    color: #fff;
+  }
+    
+  }
+  

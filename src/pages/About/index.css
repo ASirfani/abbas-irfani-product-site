@@ -1,0 +1,120 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  .contents {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #f5f5f5;
+  }
+  
+  .about-us {
+    padding: 24px;
+    margin: 15px auto 10px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .about {
+    border-color: #EEEEEE;
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    border-width: 0.2px;
+    font-weight: 400;
+    color: #333333;
+  }
+
+  .titlePage{
+    font-size: 34px;
+  }
+
+  .subTitle{
+    text-align: left;
+    font-size: 28px;
+    border-bottom: none;
+    margin-bottom: 0px;
+  }
+
+  .subTitle2{
+    text-align: left;
+    font-size: 24px;
+    border-bottom: none;
+    margin-bottom: 0px;
+  }
+
+  .subTitle3{
+    text-align: left;
+    font-size: 16px;
+    border-bottom: none;
+    margin-bottom: 0px;
+    font-weight: 500;
+
+  }
+
+  .txt{
+    text-align: justify;
+    width: 100%;
+    margin: 10px auto;
+    font-size: 13px;
+    color: #000;
+ 
+  }
+
+
+  .formulas{
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow:  1px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 18px;
+
+  }
+
+  .icon{
+    padding: 0;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+
+  .icon span{
+    margin-right: 3px;
+    padding: 1px 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+  }
+
+
+  .lsbtn{
+    background-color: #1877F2;
+  }
+  .lsbtn:hover{
+    background-color: #5e9cee;
+  }
+ 
+ 
+  .icon .txtbtn{
+    background-color:#777777;
+    position: absolute;
+    display: flex;
+    width: 26%;
+    left: 110px;
+    bottom: -10px;
+    border-radius: 20px;
+    
+  }
+ 
